@@ -11,7 +11,7 @@ gem 'jquery-rails', '2.0.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'pg', '0.12.2'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
